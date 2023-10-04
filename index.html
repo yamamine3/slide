@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Slide</title>
+  <style>
+    .shuffle{
+        fill:aqua;
+    }
+    .shuffle:hover{
+        fill:blueviolet;
+    }
+  </style>
+  <script type="text/javascript" src="slide.js"></script>
+</head>
+
+<body>
+    <div id="myapp"></div>
+</body>
+
+<script type="text/javascript">
+
+// Elmアプリケーションを開始します
+var app = Elm.Slide.init({
+    node: document.getElementById('myapp')
+});
+
+</script>
+
+</html>
